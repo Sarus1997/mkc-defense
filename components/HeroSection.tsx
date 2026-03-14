@@ -66,7 +66,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ scrollY }) => {
           </div>
         </div>
 
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent"
+        <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-linear-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent"
           style={{ animation: 'fadeInUp 1s ease-out' }}>
           {lang === "en" && "CYBER DEFENSE"}
           {lang === "th" && "ไซเบอร์ ดีเฟนส์"}
@@ -84,7 +84,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ scrollY }) => {
 
         <div className="flex gap-6 justify-center flex-wrap"
           style={{ animation: 'fadeInUp 1s ease-out 0.6s both' }}>
-          <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg font-semibold text-lg hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all transform hover:scale-105 active:scale-95">
+          <button className="px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-600 rounded-lg font-semibold text-lg hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all transform hover:scale-105 active:scale-95">
             {lang === "en" && "Deploy Protection"}
             {lang === "th" && "เปิดใช้งานการป้องกัน"}
           </button>

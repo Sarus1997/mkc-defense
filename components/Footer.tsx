@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto text-center">
         <div className="flex items-center justify-center gap-3 mb-6">
           <Shield className="w-8 h-8 text-blue-400" />
-          <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+          <span className="text-2xl font-bold bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
             {lang === "en" && "CYBER DEFENSE"}
             {lang === "th" && "ไซเบอร์ ดีเฟนส์"}
           </span>

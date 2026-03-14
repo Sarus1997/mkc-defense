@@ -37,7 +37,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Shield className="w-8 h-8 text-blue-400 animate-pulse" />
-          <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+          <span className="text-2xl font-bold bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
             {lang === "en" && "CYBER DEFENSE"}
             {lang === "th" && "ไซเบอร์ ดีเฟนส์"}
           </span>
@@ -54,7 +54,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               {lang === "en" && item.en}
               {lang === "th" && item.th}
               {activeSection === idx && (
-                <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-400 to-cyan-400" />
+                <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-linear-to-r from-blue-400 to-cyan-400" />
               )}
             </button>
           ))}
